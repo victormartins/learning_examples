@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     benchmark-ips (2.7.2)
+    benchmark_driver (0.10.9)
     memory_profiler (0.9.10)
 
 PLATFORMS
@@ -9,7 +10,8 @@ PLATFORMS
 
 DEPENDENCIES
   benchmark-ips
+  benchmark_driver
   memory_profiler
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
