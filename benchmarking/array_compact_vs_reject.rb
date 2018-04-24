@@ -1,5 +1,4 @@
 require 'benchmark/ips'
-
 # we have an array with 13 strings and a nil and we want to know what is the most performant way to remove the nil
 # Conclusion: Using compact! is faster even if we set a variable to get the result. It consumes less memory than the reject
 
